@@ -77,7 +77,6 @@
     scrollToCapCuu();
     scrollToVienPhi();
     scrollToQuyDinh();
-    scrollToLienHe();
     new WOW().init();
   });
 
@@ -597,7 +596,7 @@
   }
 
   /*--------------------------------------------------------------
-    23. vien phi
+    24. vien phi
   --------------------------------------------------------------*/
   function scrollToVienPhi() {
     $('#vien-phi').on('click', function(e) {
@@ -609,7 +608,7 @@
   }
 
   /*--------------------------------------------------------------
-    23. quy dinh
+    25. quy dinh
   --------------------------------------------------------------*/
   function scrollToQuyDinh() {
     $('#quy-dinh').on('click', function(e) {
@@ -620,16 +619,5 @@
     });
   }
 
-  /*--------------------------------------------------------------
-    23. lien he
-  --------------------------------------------------------------*/
-  function scrollToLienHe() {
-    $('#lien-he').on('click', function(e) {
-      e.preventDefault();
-      $('html,body').animate({
-        scrollTop: $("#lien-he-content").offset().top
-      }, 300);
-    });
-  }
 
 })(jQuery); // End of use strict

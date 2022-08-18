@@ -623,7 +623,7 @@
   /*--------------------------------------------------------------
     26. lien he
   --------------------------------------------------------------*/
-  function scrollToQuyDinh() {
+  function scrollToLienHe() {
     $('#lien-he').on('click', function(e) {
       e.preventDefault();
       $('html,body').animate({

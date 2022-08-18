@@ -1001,7 +1001,8 @@ hr {
 
 .cs-page__head.cs-style1 {
   height: 500px;
-  background: linear-gradient(90deg, #021b79 0%, #0575e6 99%); }
+  background: linear-gradient(90deg, #021b79 0%, #0575e6 99%);
+  background-image: url(../img/orther/announcement.jpg); }
   .cs-page__head.cs-style1 .cs-page__head__in {
     padding-top: 60px; }
   .cs-page__head.cs-style1 .cs-page__head__title {

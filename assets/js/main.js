@@ -77,6 +77,7 @@
     scrollToCapCuu();
     scrollToVienPhi();
     scrollToQuyDinh();
+    scrollToLienHe();
     new WOW().init();
   });
 
@@ -615,6 +616,18 @@
       e.preventDefault();
       $('html,body').animate({
         scrollTop: $("#quy-dinh-content").offset().top
+      }, 300);
+    });
+  }
+
+  /*--------------------------------------------------------------
+    26. lien he
+  --------------------------------------------------------------*/
+  function scrollToQuyDinh() {
+    $('#lien-he').on('click', function(e) {
+      e.preventDefault();
+      $('html,body').animate({
+        scrollTop: $("#lien-he-content").offset().top
       }, 300);
     });
   }
